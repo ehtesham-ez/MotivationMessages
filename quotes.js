@@ -4,7 +4,6 @@ const quotes =["“All our dreams can come true, if we have the courage to pursu
 "“If people are doubting how far you can go, go so far that you can’t hear them anymore.” – Michele Ruiz","“We need to accept that we won’t always make the right decisions, that we’ll screw up royally sometimes – understanding that failure is not the opposite of success, it’s part of success.” – Arianna Huffington",
 "“Write it. Shoot it. Publish it. Crochet it, sauté it, whatever. MAKE.” – Joss Whedon"
 ];
+var random = Math.floor((Math.random() * quotes.length) + 1);
 
-console.log("Here is your daily message :");
-
-console.log(quotes[0]);
+console.log(quotes[random]);
